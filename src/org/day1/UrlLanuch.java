@@ -8,7 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class UrlLanuch {
 
 	public static void main(String[] args) {
-		System.setProperty("webdriver.gecko.driver", "D:\\Java_seleninum\\Seleniumprojects\\drivers\\chromedriver.exe");
+		//System.setProperty("webdriver.gecko.driver", "D:\\Java_seleninum\\Seleniumprojects\\drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://www.greenstechnologys.com/");
 
